@@ -1,0 +1,95 @@
+body {
+  padding-top: 50px;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+.lead-row{
+  margin-top: 20px;
+}
+.lead-div {
+  margin-top: 30px;
+}
+li {
+  margin-bottom: 20px;
+}
+ul li ul li {
+  margin-bottom: 0px;
+}
+.nav li, li:last-child {
+  margin-bottom: 0px;
+}
+.anchor-offset {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+img.profile-photo {
+  width: 100%;
+  max-width: 250px;
+}
+
+.thumbnail.profile .caption {
+  overflow: hidden;
+}
+
+.thumbnail.profile .caption a {
+  color: #333;
+}
+
+@media (max-width: 620px) and (min-width: 450px) {
+  .thumbnail h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) and (min-width: 400px) {
+  .thumbnail h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) and (min-width: 340px) {
+  .thumbnail h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 350px) {
+  .thumbnail h3 {
+    font-size: 14px;
+  }
+}
+
+.btn-default{
+  background-image: none;
+  border-color: #ff9f80;
+  color: #a73610;
+}
+
+.btn-default:hover {
+  background-color: #fff5f2;
+  border-color: #d96641;
+  text-decoration: underline;
+  color: #80290c;
+}
+
+.navbar-default .navbar-brand {
+  color: #a73610;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #a73610;
+}
+.navbar-default {
+  background-image: none;
+  border-color: #a73610;
+  background-color: #fff5f2;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #a73610;
+}
+
+hr {
+  border-top: 1px solid #ffd8cc;
+}
